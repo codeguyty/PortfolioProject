@@ -1,0 +1,157 @@
+/* Imports font from Google Fonts */
+@import url('https://fonts.googleapis.com/css?family=Ubuntu:400,500&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+body {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 20px;
+    color: #A69D79;
+    background-color: #1F2024;
+    height: 100%;
+}
+
+.header-container {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.intro-container {
+    display: flex;
+    width: 1250px;
+    height: 300px;
+    justify-content: space-around;
+}
+
+.intro-left {
+    display: flex;
+    padding: 20px;
+    justify-content: space-evenly;
+    width: 350px;
+    margin-left: 50px;
+}
+
+.intro-right {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    margin-left: 100px;
+}
+
+.title-right {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.title {
+    color: #D11E7B;
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.icons-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+a:hover {
+    color: inherit;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.icons {
+    color: #F6BA54;
+    font-size: 75px;
+}
+
+.bigicons {
+    font-size: 100px;
+}
+
+.big-txt {
+    font-weight: bold;
+    font-size: 60px;
+}
+
+.title-txt {
+    color: #D11E7B;
+    padding: 20px;
+}
+
+.sub-txt {
+    color: #6BC2D2;
+    font-size: 2em;
+}
+
+
+.bold-txt {
+    font-weight: bold;
+    color: #F6BA54;
+}
+
+.highlight {
+    color:#DB4661;
+}
+
+.repo-container {
+    display: flex;
+    justify-content: center;
+}
+
+#repos {
+    padding: 20px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+ul li {
+    font-weight: bold;
+    font-size: 18px;
+    color:#F6BA54;
+    border-bottom: 1px solid #000;
+    padding-bottom: 3px;
+    padding-left: 5px;
+}
+
+ul li:hover {
+    cursor: pointer;
+}
+
+ul li a {
+    text-decoration: none;
+}
+
+ul li a:visited {
+    font-weight: bold;
+    font-size: 16px;
+    border-bottom: 1px solid #000;
+    padding-bottom: 3px;
+}
+
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: gray;
+    color: white;
+    text-align: center;
+  }
+
+  
